@@ -51,7 +51,7 @@ const Manager = () => {
         setSavedPasswords(savedPasswords.filter(item=>item.id!==id))
         localStorage.setItem("passwords",JSON.stringify(savedPasswords.filter(item=>item.id!==id)))
        }
-       toast("Password Deleted!")
+       toast("Password Deleted Successfully!")
     }
   return (
     <>
